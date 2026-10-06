@@ -31,8 +31,8 @@ curl -fsSL https://serve.bd/install.sh | bash
 Then deploy any folder from your computer with the `serve` CLI:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/serve-bd/serve/main/install-cli.sh | sh
-serve login https://your-serve-dashboard
+curl -fsSL https://serve.bd/cli.sh | sh
+serve login https://serve.example.com
 serve deploy
 ```
 
