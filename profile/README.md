@@ -39,11 +39,13 @@ serve deploy
 ## What you get
 
 - **Apps** from Git, a Docker image, a Dockerfile, a Compose file or any folder.
-- **Databases:** PostgreSQL, MySQL, MariaDB, MongoDB, Redis, Valkey and ClickHouse, with backups.
-- **One-click services** from a catalog of templates.
+- **Databases:** PostgreSQL, MySQL, MariaDB, MongoDB, Redis, Valkey and ClickHouse, with scheduled backups to S3, read replicas and connection pooling.
+- **One-click services** from a catalog of hundreds of open source apps.
 - **Deploys** with zero downtime, health checks, rollbacks and pull request previews.
-- **Domains and HTTPS** with certificates that renew themselves.
-- **Many servers**, teams, roles and an API.
+- **Domains and HTTPS** through nginx, Caddy or Traefik, with certificates that renew themselves, and Cloudflare Tunnels for servers without a public IP.
+- **Access control:** a login wall for your team or invited guests, HTTP Basic Auth and IP rules.
+- **Monitoring:** logs, metrics, uptime checks, alerts to Slack, Discord, email and more, and public status pages.
+- **Many servers** joined over a private network, teams with roles, an API and a CLI.
 
 ## Repositories
 
